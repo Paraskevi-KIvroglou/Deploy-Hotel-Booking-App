@@ -5,7 +5,7 @@ import langchain.globals
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import streamlit as st
 
-my_model_id = os.getenv('MODEL_REPO_ID', 'Default Value')
+my_model_id = "KvrParaskevi/Hotel-Assistant-Attempt5-Llama-2-7b"
 token = os.getenv('HUGGINGFACEHUB_API_TOKEN')
 
 @st.cache_resource 
