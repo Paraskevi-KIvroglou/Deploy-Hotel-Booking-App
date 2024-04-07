@@ -3,8 +3,8 @@ import streamlit as st
 import chatbot as demo_chat
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-st.title("Hi, I am Chatbot Philio :mermaid:")
-st.write("I am your hotel booking assistant for today.")
+st.title("Hi, I am Chatbot Philio :woman:")
+st.write("I am your hotel booking assistant. Feel free to start chatting with me.")
 
 tokenizer, model = demo_chat.load_model()
 
