@@ -1,2 +1,2 @@
 # Deploy-Hotel-Booking-App
-This is currently a project on ongoing development of the Project:AI Use Case course.
+This GitHub repo is used to load a finetuned model using the transformers library and streamlit for front end chatbot interface.
