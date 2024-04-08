@@ -5,7 +5,8 @@ import langchain.globals
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import streamlit as st
 
-s3_client = boto3.client('s3')
+my_model_id = os.getenv('MODEL_REPO_ID', 'Default Value')
+my_model_id = "KvrParaskevi/Hotel-Assistant-Attempt5-Llama-2-7b"
 
 @st.cache_resource 
 def load_model():
